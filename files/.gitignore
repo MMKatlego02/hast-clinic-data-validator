@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets and settings
+.env
+.env.*
+!.env.example
+
+# Generated outputs and logs
+output/*
+!output/.gitkeep
+*.log
+
+# Real input data: keep only the synthetic sample in Git
+data/*
+!data/hast_data_messy.csv
+
+# OS files
+.DS_Store
+Thumbs.db
